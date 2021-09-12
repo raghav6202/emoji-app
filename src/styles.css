@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap");
+
+.App {
+  font-family: "Spartan", sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #ff5722;
+  --secondary-color: #8eacbb;
+}
+
+body {
+  margin: 0rem;
+  background-color: var(--primary-color);
+}
+input {
+  padding: 1rem;
+  border: solid;
+  border-radius: 1.5rem;
+  min-width: 80%;
+}
+
+.inputEmoji {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+header {
+  font-family: "Fredoka One", cursive;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  margin: 2rem;
+
+  border-radius: 2rem;
+}
+
+.emojiName {
+  background-color: #93ca3f;
+
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  padding: 0.25rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.inputBody {
+  background-color: #fbb901;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+
+.displayEmoji {
+  background-color: #fbb901;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  font-size: 1.8rem;
+  margin: 1.7rem;
+  padding: 0.35rem;
+  line-height: 4.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #1f1f1f;
+  background-size: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+}
+
+.devName {
+  /* margin-left:5rem;  */
+  text-align: right;
+}
